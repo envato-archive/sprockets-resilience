@@ -9,6 +9,6 @@ Gem::Specification.new do |s|
   s.summary = "Stops Rails killing an entire site when an asset is not precompiled"
   s.description = "Ever had your entire Rails app die because one tiny little asset slipped through the cracks and wasn't precompiled? You need this gem!"
 
-  s.add_dependency "rails", "~> 3.2"
+  s.add_dependency "rails", ">= 3.0", "< 5"
   s.add_development_dependency "minitest", "~> 4"
 end
